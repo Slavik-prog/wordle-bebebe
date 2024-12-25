@@ -14,8 +14,8 @@ using namespace System::Windows::Forms;
 [STAThread]
 int main()
 {
-  Application::EnableVisualStyles();
-  Application::SetCompatibleTextRenderingDefault(false);
-  Application::Run(gcnew CppCLRWinFormsProject::Form1());
-  return 0;
+	Application::EnableVisualStyles();
+	Application::SetCompatibleTextRenderingDefault(false);
+	Application::Run(gcnew Wordle::Form1());
+	return 0;
 }
